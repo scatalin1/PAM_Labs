@@ -32,7 +32,7 @@ class AdapterNotes (val array: ArrayList<Note>):
         else if(array[position].type.equals("spending")){
             holder.binding.parentRelative.setBackgroundColor(Color.parseColor("#C0D6DF"))
         }
-        else if(array[position].type.equals("spending")){
+        else if(array[position].type.equals("tranfer")){
             holder.binding.parentRelative.setBackgroundColor(Color.parseColor("#DBE9EE"))
         }
         holder.bindItems(array[position])
