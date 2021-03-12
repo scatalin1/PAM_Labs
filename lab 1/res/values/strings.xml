@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PAM1</string>
+    <string name="welcome_text">Welcome!</string>
+    <string name="send_text">Send</string>
+    <string name="message_text">this is my message</string>
+    <string name="your_message">Type your name</string>
+    <string name="end_message">Write a return msg</string>
+</resources>
