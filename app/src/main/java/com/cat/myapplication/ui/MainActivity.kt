@@ -14,7 +14,7 @@ import com.cat.myapplication.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: MainViewModel
     private val purses = ArrayList<Model>()
-private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: AdapterPurses
 
     override fun onCreate(savedInstanceState: Bundle?) {
