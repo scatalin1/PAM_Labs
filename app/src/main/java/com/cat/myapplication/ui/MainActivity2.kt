@@ -36,7 +36,7 @@ class MainActivity2 : AppCompatActivity() {
         ).get(MainViewModel::class.java)
     }
 
-    private fun addItem(name: String, amount: String) {
+    fun addItem(name: String, amount: String) {
         viewModel.postPayments(Model(name + " " +  amount)).observe(this, Observer {
             it?.let { resource ->
                 when (resource.status) {
